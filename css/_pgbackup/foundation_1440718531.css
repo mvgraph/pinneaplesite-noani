@@ -9962,5 +9962,6 @@ th.hide-for-touch
 {
     position: fixed;
     overflow: hidden;
+    max-height: 800px;
 }
 
