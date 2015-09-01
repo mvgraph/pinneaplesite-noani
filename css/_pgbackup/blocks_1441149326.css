@@ -2501,7 +2501,7 @@ Version: 1.0
     background-size: contain;
     height: 100%;
     background-image: url('../images/phones.png');
-    background-position: right;
+    background-position: center;
     background-repeat: no-repeat;
 }
 
@@ -2529,15 +2529,10 @@ Version: 1.0
 
 @media only screen and (min-width : 768px)
 {
-@media only screen and (min-width : 768px)
-{
     .content-3-10 .image-container
     {
         height: 100%;
-        background-position: center;
     }
-}
-
     .content-3-10 .content
     {
         margin-top: 0px;
@@ -4423,13 +4418,5 @@ Version: 1.0
     color: #ffffff;
     font-weight: 700;
     margin: 0;
-}
-
-@media (max-width:478px)
-{
-    .center-image-resp
-    {
-        background-position: center;
-    }
 }
 

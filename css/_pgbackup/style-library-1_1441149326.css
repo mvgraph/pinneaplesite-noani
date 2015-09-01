@@ -292,7 +292,7 @@ body
 {
     background-repeat: no-repeat;
     background-position: center center;
-    height: 100%;
+    background-size: cover;
 }
 
 /* COLORS - MTCH added !important */
@@ -1988,22 +1988,5 @@ fieldset[disabled] .form-control
 .transparent-bg
 {
     background-color: rgba(5, 31, 40, 0.9);
-}
-
-.image-center-resp
-{
-}
-
-@media (max-width:767px)
-{
-@media (max-width:767px)
-{
-    .image-center
-    {
-        background-position: center !important;
-        height: 400px !important;
-    }
-}
-
 }
 
